@@ -1,0 +1,10 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Nav Bar */
+
+.inline-block {
+    display: inline-block;
+    list-style: none;
+}
