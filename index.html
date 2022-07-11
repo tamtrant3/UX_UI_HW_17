@@ -8,32 +8,45 @@
     <body>
          <!-- Nav HTML -->
         <div>
-            <header class="navigation">
-                <div class="logo">Tam</div>
-                <nav class="tabs">
-                    <a href="#">About Me</a>
-                    <a href="#">Work</a>
-                    <a href="#">Resume</a>
-                    <a href="#">Contact</a>
-                </nav>
+            <header>
+                <div class="navigation">
+                    <h4 class="logo">Home</h4>
+                    <nav class="tabs">
+                        <h4>About Me</h4>
+                        <h4>Work</h4>
+                        <h4>Resume</h4>
+                        <h4>Contact</h4>
+                    </nav>
+                </div>
             </header>
             <!-- Hero Image -->
             <section class="heroimg">
                 <div class="content">
-                    <img src="Images\Hero Image.svg" alt="Illustration of Tam">
-                    <h2>Hi I'm Tam Tran.</h2>
-                    <p>I'm a UX/UI designer and illustrator based in Melbourne. </p>
-                    <p>I specialize in creating clean and visually engaging designs that help solve user problems.</p>
-                    <p>My skills include Figma, Adobe Illustrator, Adobe Premiere Pro and Adobe Photoshop. </p>
-                    <img src="Images\Container - Text bubble.svg">
+                    <img class="profile" src="Images\Hero Image.svg" alt="Illustration of Tam">
+                    <div class="container">
+                        <img src="Images\Container - Text bubble.png" alt="text bubble" id="biotextbubble">
+                        <div id="biotitle">
+                            <h2>Hi I'm Tam Tran.</h2>
+                        </div>
+                        <div id="biocontent">
+                            <p>I'm a UX/UI designer and illustrator based in Melbourne. </p>
+                            <p>I specialize in creating clean and visually engaging designs that help solve user problems.</p>
+                            <p>My skills include Figma, Adobe Illustrator, Adobe Premiere Pro and Adobe Photoshop. </p>
+                        </div>
+                    </div>
                 </div>
             </section>
             <!-- Footer -->
-            <div class="footer">
-                <a href="#" class="Linkedin"><img src="Images\linkedin 1.png"></a>
-                <a href="#" class="insta"><img src="Images\instagram-logo 1.png"></a>
-                <a href="#" class="mail"><img src="Images\mail (1) 1.png"></a>
+            <footer class="footercontainer">
+            <div class="footertitle">
+                <p>Contact Me:</p>
             </div>
+            <div class="footericons">
+                <a href="#" class="in"><img src="Images\linkedin 1.png" width="40px"></a>
+                <a href="#" class="insta"><img src="Images\instagram-logo 1.png" width="40px"></a>
+                <a href="#" class="mail"><img src="Images\mail (1) 1.png" width="40px"></a>
+            </div>
+            </footer>
         </div>
     </body>
 </html>
